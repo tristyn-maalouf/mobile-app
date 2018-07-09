@@ -45,6 +45,6 @@ export class Home {
     }
 
     give() {
-        this.navigationService.go('http://www.churchconnectapp.org/giving-back/')
+        this.navigationService.go('http://www.firstroanoke.com/give/')
     }
 }

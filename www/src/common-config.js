@@ -1,7 +1,7 @@
 export default {
     debug: false,
     testing: false,
-    apiUrl: 'http://church-api-dev2.us-east-1.elasticbeanstalk.com/',
+    apiUrl: 'http://churchconnect-restapi.hmcn2eenpg.us-east-1.elasticbeanstalk.com/',
     // apiUrl: 'http://localhost:8080/',
     endpoint: 'api',
     configureEndpoints: ['api'],
@@ -12,7 +12,7 @@ export default {
     routes: [
         {name: 'home', title: 'Home', nav: true, icon: 'home', auth: false},
         // {name: 'settings', title: 'My Settings', nav: true, icon: 'user', auth: true},
-        {name: 'http://www.churchconnectapp.org/giving-back/', title: 'Giving', nav: true, icon: 'heart', auth: false},
+        {name: 'http://www.firstroanoke.com/give/', title: 'Giving', nav: true, icon: 'heart', auth: false},
         {name: 'contact', title: 'Contact', nav: true, icon: 'phone', auth: false},
         {name: 'login', title: 'Login', auth: false},
         {name: 'login/:token', title: 'Login', auth: false},
@@ -26,7 +26,7 @@ export default {
     ],
     tabs: [
         {label: 'Home', href: '#/home', icon: 'home'},
-        {label: 'Giving', href: 'http://www.churchconnectapp.org/giving-back/', icon: 'heart'},
+        {label: 'Giving', href: 'http://www.firstroanoke.com/give/', icon: 'heart'},
         {label: 'Calendar', href: '#/events/list', icon: 'calendar'},
         {label: 'Contact', href: '#/contact', icon: 'phone'}
     ]
