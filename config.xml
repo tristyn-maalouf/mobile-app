@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="co.sharptop.church.connectApp" version="17.10.31" xmlns="http://www.w3.org/ns/widgets">
+<widget id="co.sharptop.church.firstroanoke" version="17.10.31" xmlns="http://www.w3.org/ns/widgets">
 
-    <name>ChurchConnect</name>
+    <name>myFBCR</name>
 
     <description>
-        ChurchConnect is an open-source church app built through the cooperation of churches and Sharptop Software Co.
+        A mobile app built for First Baptist Church of Roanoke
     </description>
 
     <author email="info@churchconnectapp.org" href="http://churchconnectapp.org">
